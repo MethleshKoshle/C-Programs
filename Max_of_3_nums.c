@@ -1,7 +1,7 @@
 //gcc 5.4.0
 
 #include  <stdio.h>
-
+#define MAX(x, y) ((x>y)?x:y)
 int main(void)
 {
     int a=5, b=3, c=2;
