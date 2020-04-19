@@ -1,3 +1,4 @@
+/* Problem: Given two decimal numbers print the binary multiplication of these numbers, you should not use direct multiplication.*/
 #include <stdio.h>
 void main(){
 	int n1, n2, d1=0, d2=0, flag=1;
