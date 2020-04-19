@@ -1,3 +1,4 @@
+/*Problem multiply each element of an array by 2.*/
 #include <stdio.h>
 int main()
 {
