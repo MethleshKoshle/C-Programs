@@ -1,13 +1,14 @@
+/*Problem: Given a nxn matrix check whether it's identity or not.*/
 #include <stdio.h>
 
 int main() {
-	int size, row, col;
-	printf("Enter size of matrix: ");
-	scanf("%d", &size);
+    int size, row, col;
+    printf("Enter size of matrix: ");
+    scanf("%d", &size);
 
     int matrix[size][size], check=1;
 
-    for(row=0; row<size; row++)
+    for(row=0; row<size; row++){
        for(col=0; col<size; col++){
            printf("Element [%d][%d]: ", row, col);
            scanf("%d", &matrix[row][col]);
@@ -19,6 +20,7 @@ int main() {
            else if(matrix[row][col] != 0)
            		check = 0;
        }
+    }
 
     printf("Matrix is:\n");
     for(row=0; row<size; row++){
